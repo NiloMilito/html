@@ -4,7 +4,8 @@
 
 
 #body {
-  background-color: lightcyan !important;
+  background-color: rgb(208, 227, 245);
+  
 } 
 
 #linha {
@@ -16,3 +17,41 @@
   border: solid;
   color: darkgreen;
 }
+
+#obs {
+  margin-left: 35px;  
+}
+ 
+#linha-vertical {
+  margin-top: -1%;
+  border-left: solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  box-sizing: border-box;
+  color: darkgreen;
+ }
+
+ #cab {
+   margin-left: 40px;
+ }
+
+ #radio {
+   float: left;
+  margin-left: 50px;
+ }
+
+ input {
+  box-shadow: 5px 5px 10px lightcyan;
+  float: left;
+  margin-left: 30px;
+ }
+
+ label {
+  float: left;
+  margin-left: 2px;
+ }
+
+ textarea {
+  box-shadow: -1px -1px 2px #325d6f;
+ }
+ select {
+    box-shadow: 5px 5px 10px lightcyan;
+ }

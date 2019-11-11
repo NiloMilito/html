@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="professional.html">Professional</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="avaliacao.html">Avaliação</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dados.html">Dados Professional</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pesquisa.html">Buscar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="processo.html">Avaliação do Processo</a>
+            </li>
+        </ul>
+    </div>
+    <fieldset id="body" class="container border border-dark">
+      <legend>Dados do Profissional</legend>
+
+          <div class="form-group">
+            <div class="row col-sm-12">
+                <label for="cargo" class="col-sm-2 col-form-label">Cargo / Função</label>          
+                <input type="text" class="col-sm-9" id="cargo">                
+            </div>    
+
+            <div class="row col-sm-12">
+                <label for="equipe" class="col-sm-2 col-form-label">Equipe</label>           
+                <input type="text" class="col-sm-9" id="equipe">              
+            </div>
+
+            <div class="row col-sm-12">
+                <label for="cidade" class="col-sm-2 col-form-label">Cidade</label>     
+                <input type="text" class="col-sm-9" id="cidade">                
+            </div>
+
+            <div class="row col-sm-12">
+                <label for="data" class="col-sm-2 col-form-label">Data Avaliação</label>            
+                <input type="text" class="col-sm-9" id="data">             
+            </div>           
+          </div>
+
+          <hr id="linha1">
+
+          <div class="form-group row col-sm-12">        
+                <div class="form-group col-sm-6">
+                    <label for="responsavel" class="col-form-label">Responsável RH</label>
+                    <input type="text" class="col-sm-12" id="responsavel">
+                </div> 
+
+                <div class="form-group col-sm-6">   
+                    <label for="datafeed" class="col-form-label">Data Feedback</label>   
+                    <input type="text" class="col-sm-12" id="datafeed">
+                </div>
+          </div>
+
+          <div class="form-group"> 
+            <label for="observacao" class="col-sm-6 col-form-label">Observações do Gestor</label> 
+            <div class="col-sm-12">                  
+                <textarea type="text" class="form-control" id="observacao" rows="8"></textarea> 
+            </div>
+         </div>
+
+    </fieldset>
+    <script src="script.js"></script>
+  </body>
+</html>
